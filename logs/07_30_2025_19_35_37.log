@@ -1,0 +1,68 @@
+[2025-07-30 19:35:39,990] 114 root - ERROR - Failed to initialize primary model: 1 validation error for HuggingFaceEndpoint
+  Value error, Parameters {'return_full_text', 'max_new_tokens', 'temperature', 'do_sample'} should be specified explicitly. Instead they were passed in as part of `model_kwargs` parameter. [type=value_error, input_value={'repo_id': 'microsoft/Di...VugxqWWGcZvhHYUfDpJxgi'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-30 19:35:39,990] 127 root - ERROR - Fallback model also failed: 1 validation error for HuggingFaceEndpoint
+  Value error, Parameters {'max_new_tokens', 'temperature'} should be specified explicitly. Instead they were passed in as part of `model_kwargs` parameter. [type=value_error, input_value={'repo_id': 'google/flan-...VugxqWWGcZvhHYUfDpJxgi'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-30 19:39:52,420] 36 root - ERROR - Failed to initialize DialoGPT: 1 validation error for HuggingFaceEndpoint
+  Value error, Parameters {'return_full_text', 'max_new_tokens', 'temperature', 'do_sample'} should be specified explicitly. Instead they were passed in as part of `model_kwargs` parameter. [type=value_error, input_value={'repo_id': 'microsoft/Di...VugxqWWGcZvhHYUfDpJxgi'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-30 19:39:52,420] 50 root - ERROR - Failed to initialize fallback model: 1 validation error for HuggingFaceEndpoint
+  Value error, Parameters {'max_new_tokens', 'temperature'} should be specified explicitly. Instead they were passed in as part of `model_kwargs` parameter. [type=value_error, input_value={'repo_id': 'google/flan-...VugxqWWGcZvhHYUfDpJxgi'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-30 19:41:21,175] 71 root - INFO - Trying to initialize model: microsoft/DialoGPT-medium
+[2025-07-30 19:41:21,176] 86 root - ERROR - Failed to initialize microsoft/DialoGPT-medium: 1 validation error for HuggingFaceEndpoint
+  Value error, Parameters {'return_full_text', 'max_new_tokens', 'temperature', 'do_sample'} should be specified explicitly. Instead they were passed in as part of `model_kwargs` parameter. [type=value_error, input_value={'repo_id': 'microsoft/Di...VugxqWWGcZvhHYUfDpJxgi'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-30 19:41:21,176] 71 root - INFO - Trying to initialize model: google/flan-t5-base
+[2025-07-30 19:41:21,176] 86 root - ERROR - Failed to initialize google/flan-t5-base: 1 validation error for HuggingFaceEndpoint
+  Value error, Parameters {'max_new_tokens', 'temperature'} should be specified explicitly. Instead they were passed in as part of `model_kwargs` parameter. [type=value_error, input_value={'repo_id': 'google/flan-...VugxqWWGcZvhHYUfDpJxgi'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-30 19:41:21,176] 71 root - INFO - Trying to initialize model: distilgpt2
+[2025-07-30 19:41:21,176] 86 root - ERROR - Failed to initialize distilgpt2: 1 validation error for HuggingFaceEndpoint
+  Value error, Parameters {'return_full_text', 'max_new_tokens', 'temperature', 'do_sample'} should be specified explicitly. Instead they were passed in as part of `model_kwargs` parameter. [type=value_error, input_value={'repo_id': 'distilgpt2',...VugxqWWGcZvhHYUfDpJxgi'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-30 19:41:21,176] 71 root - INFO - Trying to initialize model: gpt2
+[2025-07-30 19:41:21,176] 86 root - ERROR - Failed to initialize gpt2: 1 validation error for HuggingFaceEndpoint
+  Value error, Parameters {'return_full_text', 'max_new_tokens', 'temperature', 'do_sample'} should be specified explicitly. Instead they were passed in as part of `model_kwargs` parameter. [type=value_error, input_value={'repo_id': 'gpt2', 'task...VugxqWWGcZvhHYUfDpJxgi'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-30 19:41:21,176] 88 root - ERROR - All models failed to initialize
+[2025-07-30 19:41:21,177] 96 root - ERROR - LLM initialization failed: Unable to initialize any LLM model. Last error: 1 validation error for HuggingFaceEndpoint
+  Value error, Parameters {'return_full_text', 'max_new_tokens', 'temperature', 'do_sample'} should be specified explicitly. Instead they were passed in as part of `model_kwargs` parameter. [type=value_error, input_value={'repo_id': 'gpt2', 'task...VugxqWWGcZvhHYUfDpJxgi'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+[2025-07-30 19:41:35,887] 265 root - ERROR - Error in MCQ creation pipeline: 'NoneType' object has no attribute 'invoke'
+[2025-07-30 19:47:39,875] 71 root - INFO - Trying to initialize model: microsoft/DialoGPT-medium
+[2025-07-30 19:47:40,676] 92 root - ERROR - Failed to initialize microsoft/DialoGPT-medium: 
+[2025-07-30 19:47:40,676] 71 root - INFO - Trying to initialize model: google/flan-t5-base
+[2025-07-30 19:47:41,016] 92 root - ERROR - Failed to initialize google/flan-t5-base: 
+[2025-07-30 19:47:41,017] 71 root - INFO - Trying to initialize model: distilgpt2
+[2025-07-30 19:47:41,630] 92 root - ERROR - Failed to initialize distilgpt2: 
+[2025-07-30 19:47:41,631] 71 root - INFO - Trying to initialize model: gpt2
+[2025-07-30 19:47:42,192] 92 root - ERROR - Failed to initialize gpt2: 
+[2025-07-30 19:47:42,193] 94 root - ERROR - All models failed to initialize
+[2025-07-30 19:47:42,193] 102 root - ERROR - LLM initialization failed: Unable to initialize any LLM model. Last error: 
+[2025-07-30 19:47:56,035] 271 root - ERROR - Error in MCQ creation pipeline: 'NoneType' object has no attribute 'invoke'
+[2025-07-30 19:47:56,274] 271 root - ERROR - Error in MCQ creation pipeline: 'NoneType' object has no attribute 'invoke'
+[2025-07-30 19:48:20,919] 230 root - ERROR - Streamlit app error: error reading the PDF file
+[2025-07-30 19:48:20,920] 231 root - ERROR - Traceback (most recent call last):
+  File "C:\Users\Stark Solutions\Desktop\Mcqgen\src\mcq_generator\utils.py", line 10, in read_file
+    pdf_reader=PyPDF2.PdfFileReader(file)
+  File "C:\Users\Stark Solutions\Desktop\Mcqgen\env\Lib\site-packages\PyPDF2\_reader.py", line 1974, in __init__
+    deprecation_with_replacement("PdfFileReader", "PdfReader", "3.0.0")
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Stark Solutions\Desktop\Mcqgen\env\Lib\site-packages\PyPDF2\_utils.py", line 369, in deprecation_with_replacement
+    deprecation(DEPR_MSG_HAPPENED.format(old_name, removed_in, new_name))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Stark Solutions\Desktop\Mcqgen\env\Lib\site-packages\PyPDF2\_utils.py", line 351, in deprecation
+    raise DeprecationError(msg)
+PyPDF2.errors.DeprecationError: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Stark Solutions\Desktop\Mcqgen\StreamlitAPP.py", line 129, in <module>
+    text = read_file(uploaded_file)
+  File "C:\Users\Stark Solutions\Desktop\Mcqgen\src\mcq_generator\utils.py", line 17, in read_file
+    raise Exception("error reading the PDF file")
+Exception: error reading the PDF file
+

@@ -1,8 +1,8 @@
 Metadata-Version: 2.4
 Name: mcqgenrator
 Version: 0.0.1
-Author: sunny savita
-Author-email: sunny.savita@ineuron.ai
+Author: khushi Patel
+Author-email: khucp2004@gmail.com
 Requires-Dist: openai
 Requires-Dist: langchain
 Requires-Dist: streamlit

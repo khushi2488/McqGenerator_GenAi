@@ -1,5 +1,53 @@
+
+# Core Dependencies (you already have these)
 openai
 langchain
 streamlit
 python-dotenv
 PyPDF2
+huggingface_hub
+langchain-community
+
+# Additional Required Dependencies for Deployment
+langchain-core>=0.1.0
+langchain-openai>=0.0.5
+langchain-huggingface>=0.0.1
+pydantic>=2.0.0
+pandas>=1.5.0
+numpy>=1.21.0
+requests>=2.28.0
+typing-extensions>=4.5.0
+
+# For Text Processing
+nltk>=3.8
+textstat>=0.7.0
+
+# For Better Error Handling & Logging
+loguru>=0.7.0
+
+# For JSON Processing (usually included but explicit for deployment)
+jsonschema>=4.0.0
+
+# For File Handling
+pathlib2>=2.3.0
+chardet>=5.0.0
+
+# For Streamlit Deployment (Cloud platforms)
+altair<5
+protobuf<4
+click<9
+watchdog>=2.1.0
+
+# For Production Deployment
+gunicorn>=20.1.0
+uvicorn[standard]>=0.20.0
+
+# Optional but Recommended for Better Performance
+aiohttp>=3.8.0
+httpx>=0.24.0
+
+# For Environment Management
+python-decouple>=3.6
+
+# Security (for production)
+cryptography>=3.4.8

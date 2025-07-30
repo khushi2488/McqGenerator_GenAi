@@ -1,0 +1,8 @@
+[2025-07-30 19:57:45,546] 83 root - INFO - Trying to initialize model: google/flan-t5-large
+[2025-07-30 19:57:46,490] 103 root - ERROR - \u274c Failed to initialize google/flan-t5-large: 
+[2025-07-30 19:57:46,490] 83 root - INFO - Trying to initialize model: google/flan-t5-base
+[2025-07-30 19:57:46,799] 103 root - ERROR - \u274c Failed to initialize google/flan-t5-base: 
+[2025-07-30 19:57:46,800] 83 root - INFO - Trying to initialize model: tiiuae/falcon-7b-instruct
+[2025-07-30 19:57:47,089] 103 root - ERROR - \u274c Failed to initialize tiiuae/falcon-7b-instruct: 
+[2025-07-30 19:57:47,089] 111 root - ERROR - LLM initialization failed: Unable to initialize any LLM model. Last error: 
+[2025-07-30 19:58:05,719] 255 root - ERROR - MCQ creation failed: 'NoneType' object has no attribute 'invoke'
